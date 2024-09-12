@@ -1,0 +1,90 @@
+{
+    "name": "Mycelial incubators",
+    "appearance": {
+        "lightmode": "running",
+        "lightlevel":1,
+        "block": "kubejs:machine/mycelial_incubators",
+        "hardness": 1,
+        "shape": [[0.0, 0.0, 0.0, 1.0, 0.5, 1.0]],
+        "tool_type": ["minecraft:mineable/pickaxe", "forge:mineable/paxel"],
+        "mining_level": "minecraft:needs_stone_tool"
+      },
+    "tooltips": [],
+    "components": [
+        {
+            "type": "custommachinery:item",
+            "id": "input",
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 2000,
+            "id": "output",
+            "mode": "output"
+        }
+    ],
+    "gui": [
+        {
+            "type": "custommachinery:texture",
+            "x": 40,
+            "y": 15,
+            "width": 180,
+            "height": 160,
+            "texture": "custommachinery:textures/gui/base_background.png"
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 45,
+            "y": 20,
+            "text": "菌丝培育器"
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 45,
+            "y": 75,
+            "text": "物品栏"
+        },
+        {
+            "type": "custommachinery:player_inventory",
+            "x": 50,
+            "y": 90
+        },
+        {
+            "type": "custommachinery:progress",
+            "x": 116,
+            "y": 47
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 90,
+            "y": 45,
+            "id": "input"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "x": 147,
+            "y": 30,
+            "id": "output"
+        }
+    ],
+    "jei": [
+        {
+            "type": "custommachinery:progress",
+            "x": 116,
+            "y": 47
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 90,
+            "y": 45,
+            "id": "input"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "x": 147,
+            "y": 30,
+            "id": "output"
+        }
+    ],
+    "catalysts": []
+}
