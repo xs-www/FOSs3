@@ -16,6 +16,7 @@ global["RECIPE_DEDUPE"] = false
 
 // Mod priorities
 global["unifypriorities"] = [
+    "immersiveengineering",
     "techreborn",
     "thermal",
     "mekanism",
