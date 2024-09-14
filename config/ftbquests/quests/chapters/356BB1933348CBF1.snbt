@@ -1,0 +1,280 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "356BB1933348CBF1"
+	group: "75C6EFD6AEF98B4D"
+	icon: "botania:clayconia"
+	id: "356BB1933348CBF1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5F45493F278A17DF"]
+			hide: true
+			id: "16FBCF1A7E6B3FAF"
+			tasks: [{
+				id: "21D07F55269ADF7C"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["16FBCF1A7E6B3FAF"]
+			id: "1DED6BD4F46C2D25"
+			tasks: [{
+				id: "6C869A33698D9570"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1DED6BD4F46C2D25"]
+			id: "13DA2606F8BCFC19"
+			tasks: [{
+				id: "165854A4E9B2A0F4"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13DA2606F8BCFC19"]
+			id: "282D414912002AD7"
+			tasks: [{
+				id: "3634336EFDBFD022"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["282D414912002AD7"]
+			id: "5F42056DBFC4AD2A"
+			size: 1.5d
+			tasks: [{
+				id: "4C944432163100AE"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F42056DBFC4AD2A"]
+			description: ["更快速的圆石制作"]
+			id: "3BF5D3AAF87CAFDA"
+			tasks: [{
+				id: "6601A5D892417B6F"
+				item: "kubejs:stone_pebble"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5F42056DBFC4AD2A"
+				"158BD99A0C278281"
+			]
+			id: "0DCF78BADABA2888"
+			tasks: [{
+				id: "4369116BAD854B1E"
+				item: "botania:mana_string"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4085704E1A00ED90"]
+			id: "158BD99A0C278281"
+			tasks: [{
+				id: "33DF0E36E73E49BB"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16FBCF1A7E6B3FAF"]
+			hide_dependency_lines: true
+			id: "4085704E1A00ED90"
+			tasks: [{
+				id: "0542E6C262577CA8"
+				item: "immersiveengineering:hemp_fiber"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0DCF78BADABA2888"]
+			id: "580774C06A14146B"
+			tasks: [{
+				id: "6EC258751493D5D9"
+				item: "botania:clayconia"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"580774C06A14146B"
+				"1C11ED896F7ED400"
+			]
+			id: "0F1CB9F93DAA0C4E"
+			tasks: [{
+				id: "3D3F0C54E8465184"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F1CB9F93DAA0C4E"]
+			id: "1DEE9A7FAC778B79"
+			tasks: [{
+				id: "3C3BA8BF8F14864C"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["54A8D79158B5F475"]
+			id: "1C11ED896F7ED400"
+			tasks: [{
+				id: "719BF7F6029FE8EF"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C11ED896F7ED400"]
+			id: "272F28F3ACEBDE1D"
+			tasks: [{
+				id: "6F3BF74555538700"
+				item: "minecraft:sandstone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0F1CB9F93DAA0C4E"
+				"272F28F3ACEBDE1D"
+				"1DEE9A7FAC778B79"
+			]
+			id: "771621DFE2B586B0"
+			tasks: [{
+				id: "4C3375923D5CDA5D"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["771621DFE2B586B0"]
+			id: "3240646EDA6726BA"
+			tasks: [{
+				advancement: "immersiveengineering:main/mb_cokeoven"
+				criterion: ""
+				id: "04B45FB2A7512299"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F42056DBFC4AD2A"]
+			id: "2EA92BA0E382C083"
+			size: 2.0d
+			subtitle: "完成此任务后将解锁章节2-1"
+			tasks: [{
+				id: "53A5ACEFCEA97163"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F42056DBFC4AD2A"]
+			id: "5BFD9BCCACBFEFB8"
+			tasks: [{
+				id: "7E8AA6BEB2302DC3"
+				item: "kubejs:basic_randomite_ore"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BFD9BCCACBFEFB8"]
+			id: "5699A6DDB51A4C8D"
+			tasks: [
+				{
+					id: "531DBB8422534ABA"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "2D1B22A5A1EE6ED2"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "5C42B85E23AD8821"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "5FA345FA17FEBE20"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+			]
+			title: "基础金属"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F42056DBFC4AD2A"]
+			id: "54A8D79158B5F475"
+			tasks: [{
+				id: "49F7FF154508998B"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3240646EDA6726BA"]
+			icon: "immersiveengineering:creosote_bucket"
+			id: "7AB7EFF76D3628DB"
+			tasks: [{
+				id: "414249B1689FC7EC"
+				title: "杂酚油"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+	]
+	title: "花学反应"
+}

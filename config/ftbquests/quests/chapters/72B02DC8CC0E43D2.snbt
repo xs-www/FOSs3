@@ -1,0 +1,385 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "72B02DC8CC0E43D2"
+	group: "75C6EFD6AEF98B4D"
+	icon: "botania:mycelium_seeds"
+	id: "72B02DC8CC0E43D2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3C90299745DF4D99"
+			tasks: [{
+				id: "4E6581C91B91045C"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C90299745DF4D99"]
+			id: "1591A1DF5AE1BEF8"
+			tasks: [{
+				id: "28C256A818010882"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1591A1DF5AE1BEF8"]
+			id: "746DDE8DC7D2D426"
+			tasks: [{
+				id: "103BC751CA6EDAC5"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["746DDE8DC7D2D426"]
+			id: "09CB5A843E605726"
+			tasks: [{
+				id: "3D1204F7C18FAFC4"
+				item: "portablecraftingtable:portable_crafting_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["746DDE8DC7D2D426"]
+			id: "232F7B41F9CAA9BE"
+			tasks: [{
+				id: "1682D1620C7B9505"
+				item: "minecraft:oak_slab"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["232F7B41F9CAA9BE"]
+			description: ["堆肥桶不再需要堆满才会能获得骨粉了"]
+			id: "2F6C6F47DDD659A0"
+			tasks: [{
+				id: "238E79C52D43A905"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F6C6F47DDD659A0"]
+			id: "1DF7938450105BB7"
+			tasks: [{
+				id: "1ACF17296F0ADE54"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1DF7938450105BB7"
+				"3159B0C34469AAE1"
+			]
+			id: "26DE60DBFB050E6C"
+			tasks: [{
+				id: "53E3F9F6C583BB46"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1DF7938450105BB7"]
+			id: "3CB3BDDDC27D0D91"
+			tasks: [{
+				id: "3D6A3FB0199129FD"
+				item: "minecraft:grass_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CB3BDDDC27D0D91"]
+			id: "3159B0C34469AAE1"
+			tasks: [{
+				id: "0623F27E6F75D4D3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dyes"
+					}
+				}
+				title: "任意染料"
+				type: "item"
+			}]
+			title: "染料"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26DE60DBFB050E6C"]
+			id: "359FF9380B58C9BC"
+			rewards: [{
+				id: "48B324D81A7622E6"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C68A483E3DF5B88"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "任意神秘花"
+				type: "item"
+			}]
+			title: "神奇植物"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["397B739B7C8708F3"]
+			id: "61316B9DBCC21558"
+			tasks: [{
+				id: "43B01E0CF01C7439"
+				item: "botania:apothecary_fungal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"359FF9380B58C9BC"
+				"61316B9DBCC21558"
+				"72A3F17C54E39955"
+			]
+			id: "708AA79EB3D9F08B"
+			subtitle: "第一个神奇植物"
+			tasks: [{
+				id: "063F1A2FF0B64ABE"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CB3BDDDC27D0D91"]
+			id: "0B46E92C2DC16147"
+			tasks: [
+				{
+					id: "3EB30AB802D14FD4"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "20A174332AADDC16"
+					item: "immersiveengineering:seed"
+					type: "item"
+				}
+			]
+			title: "种子"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["746DDE8DC7D2D426"]
+			id: "7A5EBDFB96569E30"
+			tasks: [{
+				id: "585287DD2FFDB866"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "corail_woodcutter:woodcutters"
+					}
+				}
+				title: "任意锯木机"
+				type: "item"
+			}]
+			title: "木工活"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A5EBDFB96569E30"]
+			id: "1F6224A0F4ACC14E"
+			tasks: [{
+				id: "15D67BE6C9158777"
+				item: {
+					Count: 1
+					id: "woodenshears:wooden_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1F6224A0F4ACC14E"]
+			id: "7D1C75ED32B6DBEF"
+			tasks: [{
+				id: "0E51C5EA95D882B8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:leaves"
+					}
+				}
+				title: "任意树叶"
+				type: "item"
+			}]
+			title: "裁叶"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F6C6F47DDD659A0"]
+			description: ["使用空手右键堆过肥的堆肥桶获得。"]
+			id: "0FA64C7234664682"
+			tasks: [{
+				id: "0B2735A26A49B82B"
+				item: "botania:mycelium_seeds"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0FA64C7234664682"
+				"1D682614832E51D1"
+				"0595C3E90F377E1C"
+			]
+			description: ["菌丝培养器可以将其下方的锯末块或圆石转变为菌丝圆石"]
+			id: "397B739B7C8708F3"
+			tasks: [{
+				id: "3CF5DA0BC696D4E7"
+				item: "botania:metamorphic_fungal_cobblestone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A5EBDFB96569E30"]
+			id: "2DE649AB3CD9A313"
+			tasks: [{
+				id: "3A2E7D03C262A53C"
+				item: "thermal:sawdust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE649AB3CD9A313"]
+			id: "1D682614832E51D1"
+			tasks: [{
+				id: "2A9BE68078F1DAE7"
+				item: "thermal:sawdust_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A5EBDFB96569E30"]
+			id: "54873DE85AD0B829"
+			tasks: [{
+				id: "20030502127FAA6D"
+				item: {
+					Count: 1
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0595C3E90F377E1C"]
+			id: "72A3F17C54E39955"
+			tasks: [{
+				id: "4631C3D2E434FAAE"
+				item: {
+					Count: 1
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["708AA79EB3D9F08B"]
+			id: "5F45493F278A17DF"
+			size: 2.0d
+			subtitle: "完成该任务后将解锁章节1-2"
+			tasks: [{
+				id: "3DEA3064A69FDD7B"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "剥离菌丝"
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54873DE85AD0B829"]
+			id: "0595C3E90F377E1C"
+			tasks: [{
+				id: "4FB5C627CF7C06F3"
+				item: "kubejs:mycelial_incubators"
+				type: "item"
+			}]
+			title: "菌丝培养器"
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["708AA79EB3D9F08B"]
+			id: "170EA905FB84F0F6"
+			subtitle: "更多泥土"
+			tasks: [{
+				id: "614998DD16D3F45F"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+	]
+	title: "菌种实验"
+}
