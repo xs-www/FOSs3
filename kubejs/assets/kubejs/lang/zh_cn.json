@@ -13,6 +13,7 @@
   "tooltip.balancedflight.flight_anchor": "允许你在25格半径内飞行。 仅在主世界生效。",
 
   "item.kubejs.stone_pebble": "小石子",
-  "block.kubejs.mycelial_incubators": "菌丝培养器",
+  "block.kubejs.smelting_core": "熔炼核心",
+  "block.kubejs.smashing_core": "粉碎核心",
   "block.kubejs.basic_randomite_ore": "随机矿石（基础）" 
 }

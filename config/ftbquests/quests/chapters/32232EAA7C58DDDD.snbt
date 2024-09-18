@@ -6,6 +6,28 @@
 	id: "32232EAA7C58DDDD"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "12D955113C7DC341"
+			tasks: [{
+				id: "76DD182678E917D7"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12D955113C7DC341"]
+			id: "407FCD4F4D943881"
+			tasks: [{
+				id: "5FE4A404114F08AD"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+	]
 	title: "旋转动能"
 }

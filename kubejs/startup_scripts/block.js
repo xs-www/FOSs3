@@ -1,4 +1,16 @@
-StartupEvents.registry('block', e => {
+StartupEvents.registry('block', event => {
 
-    e.create('basic_randomite_ore').material('stone').hardness(2.0)
+    event.create('basic_randomite_ore').material('stone').hardness(2.0)
+    event.create('smashing_core')
+    .model('kubejs:blocks/smashing_core')
+    .material('stone')
+    .hardness(2.0)
+    .tagBlock('create:wrench_pickup')
+    .notSolid()
+    event.create('smelting_core', 'cardinal')
+        .model('kubejs:blocks/smelting_core')
+        .material('stone')
+        .hardness(2.0)
+        .tagBlock('create:wrench_pickup')
+        .notSolid()
 })
